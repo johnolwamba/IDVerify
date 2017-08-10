@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtName"
+            android:padding="2dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/txtID"
+            android:padding="2dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ID Number" />
+
+        <TextView
+            android:id="@+id/txtDOB"
+            android:padding="2dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date of Birth" />
+
+        <Button
+            android:id="@+id/btnBlock"
+            android:textColor="@color/white"
+            android:background="@color/red"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Block" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
